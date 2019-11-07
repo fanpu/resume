@@ -18,15 +18,16 @@
     {May 2019 - Aug 2019} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {Achieved better infrastructure modularity and significant cost savings by updating in-house Kubernetes deployment framework to allow worker clusters to share AWS EKS control planes. Design document written and circulated internally for future enhancement}
-      \item {Served twice as Infrastructure Management On-Call to investigate, triage, and fix infrastructure failures and issues such as broken infrastructure due to bad commits, Kubernetes deployment failures, AMI build failures, AWS rate-limiting problems, Datadog alerts}
-      \item {Shadowed senior Infrastructure engineer as Infrastructure On-Call Trainee to respond immediately to urgent infrastructure failures and outages and approve/deny production change requests. Involved in resolving a major infrastructure outage (2h downtime) due to MySQL database contention issues}
-      \item {Enable greater developer velocity and erase technical debt by incrementally converting infrastructure scripts from Python2 to Python3}
-      \item {Avoid regression of this conversion by writing custom lint rules for deprecated behavior using Pylint}
+      \item {Achieved better infrastructure modularity and significant cost savings by improving in-house Kubernetes deployment framework to allow worker clusters to share AWS EKS control planes. Used Boto3, CloudFormation extensively. Design document written and circulated internally for future enhancement}
+      \item {Served twice as Infrastructure Management On-Call to investigate, triage, and fix infrastructure failures and issues including broken infrastructure due to bad commits, Kubernetes deployment failures, AMI build failures, AWS rate-limiting problems, Datadog alerts}
+      \item {Shadowed senior Infrastructure engineer as Infrastructure On-Call Trainee to respond immediately to urgent infrastructure failures and outages via PagerDuty alerts and approve/deny production change requests. Involved in resolving a major infrastructure outage (2h downtime) due to MySQL database contention issues}
       \item {Automated installation of Python3 on all developer machines}
-      \item {Created a testing framework for these lint rules that are run during the Bazel build process}
+      \item {Enable greater developer velocity and erase technical debt by incrementally converting infrastructure scripts from Python2 to Python3}
+      % \item {Avoid regression of this conversion by writing custom lint rules for deprecated behavior using Pylint}
+      \item {Created a testing framework for Pylint lint rules to be run during the Bazel build process}
       % \item {Participated in team Planning Poker for costing the Python conversion project}
       % \item {Improved infrastructure deploy times by reducing infrastructure release bundle by 20\% through identifying and eliminating unnecessary files}
+      % \item {Technologies used: Kubernetes, Docker, Zookeeper, Python, Vagrant, Boto3, Bazel, Datadog, CloudFormation, , EKS, PagerDuty}
       \end{cvitems}
     }
 
@@ -37,10 +38,10 @@
     {Nov. 2018 - Current} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {Leads development and maintenance of open source project Autolab, a platform for auto-grading programming assignments used by ~5000 students in CMU and 20+ universities worldwide}
-      \item {Improved adoption by simplifying Autolab setup flow by using Docker Compose to automate provisioning and configuration of frontend and backend grading servers}
-      \item {Lead effort to keep project infrastructure up to date by upgrading Autolab to Rails 5 and Python 3
-      \item {Respond to technical issues faced by the community in setting up and configuring Autolab}
+        \item {Lead development and maintenance of open source project Autolab, a platform for auto-grading programming assignments used by ~5000 students in CMU and 20+ universities worldwide}
+        \item {Improved adoption by simplifying Autolab setup flow by using Docker Compose to automate provisioning and configuration of frontend and backend grading servers}
+        \item {Lead effort to keep project infrastructure up to date by upgrading Autolab to Rails 5 and Python 3}
+      % \item {Respond to technical issues faced by the community in setting up and configuring Autolab}
       \end{cvitems}
     }
 
@@ -54,10 +55,10 @@
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item { Regularly delivered core product features and bug fixes for the main Saleswhale app with Rails, Ember.js, RSpec, Redis, Sidekiq. Contributed to product meetings and sign-offs.}
       \item { Empowered the Customer Success team in performing account onboarding, management, and health reporting by architecting and building an internal tool from scratch with Rails, Ember.js, Rspec, SemanticUI, Gulp. Took ownership of it and regularly updated it to support the internal operational requirements of our product roadmap and in response to user feedback}
-      \item { Drastically reduced product testing times and accelerated feature releases by building and automating the deployment of a testing framework micro-service with Rails, AWS SQS, Docker, Fabric from scratch to mock the asynchronous operations of another bottleneck micro-service}
-     \item { Took charge of engineering support tickets filed by other departments related to codebase that I am familiar with, and to investigate, prepare, and deploy a fix if necessary}
-      \item { Helped the Operations team meet key SLAs by developing a Tableau workbook from scratch to return insights on operational metrics and performance }
-      \item { In charge of the algorithms \& data structures segment of the technical interview for hiring new software engineers}
+      \item { Drastically reduced product testing times and accelerated feature releases by building and automating the deployment of a testing framework micro-service with Rails, AWS SQS, Docker, Fabric from scratch to mock the asynchronous operations of a bottleneck micro-service}
+     % \item { Took charge of engineering support tickets filed by other departments related to codebase that I am familiar with, and to investigate, prepare, and deploy a fix if necessary}
+      % \item { Helped the Operations team meet key SLAs by developing a Tableau workbook from scratch to return insights on operational metrics and performance }
+      % \item { In charge of the algorithms \& data structures segment of the technical interview for hiring new software engineers}
       \end{cvitems}
     }
 
