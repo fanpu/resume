@@ -12,18 +12,33 @@
 %---------------------------------------------------------
 
   \cventry
+  {Production Engineer Intern (Tupperware Scheduler)} % Job title
+    {Facebook} % Organization
+    {Menlo Park, CA, USA} % Location
+    {May 2020 - Aug 2020} % Date(s)
+    {
+      \begin{cvitems} 
+	      \item {Designed and built a performance testing tool from scratch for Facebook's deployment system for internal backend services, Tupperware. The Tupperware Scheduler, which is in charge of allocations, healthchecks, and migrations, is targeted.}
+	      \item {Performance testing is achieved by replaying requests against a test Tupperware scheduler to benchmark performance}
+	      \item {Enhanced tool to record production requests by shadowing requests for Service Router, Facebook's internal fault-tolerant routing framework}
+	      \item {Queried metrics like CPU, memory usage, latency, errors, from the Operational Data Store (ODS) in order to detect regressions in scheduler performance}
+	      \item {Bundled tool with Facebook's internal packaging system fbpkg and configured it to run daily in production with Chronos}
+      \end{cvitems}
+    }
+
+  \cventry
   {Software Engineering Intern (Infrastructure Management)} % Job title
     {Asana} % Organization
-    {San Francisco, USA} % Location
+    {San Francisco, CA, USA} % Location
     {May 2019 - Aug 2019} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
       \item {Achieved better infrastructure modularity and significant cost savings by improving in-house Kubernetes deployment framework on AWS to allow worker clusters to share EKS control planes. Used Python, Boto3, CloudFormation extensively.}
       % \item {Design document for the above written and circulated internally for future enhancement}
       \item {Served twice as Infrastructure Management On-Call to investigate, triage, and fix infrastructure failures on Linux-based systems including infrastructure breakages due to bad commits by other developers, CI/CD pipeline failures, Kubernetes deployment failures, AMI build failures, AWS rate-limiting problems, Datadog alerts}
-      \item {Shadowed senior engineer as Infrastructure On-Call Trainee to respond to urgent infrastructure failures. Involved in resolving a major customer-facing outage (2h downtime) due to sharded MySQL database contention issues}
-      \item {Automated installation of Python3 on all developer machines}
-      \item {Enable greater developer velocity and erase technical debt by converting infrastructure scripts from Python2 to Python3}
+       \item {Shadowed senior engineer as Infrastructure On-Call Trainee to respond to urgent infrastructure failures. Involved in resolving a major customer-facing outage (2h downtime) due to sharded MySQL database contention issues}
+      %\item {Automated installation of Python3 on all developer machines}
+      % \item {Enable greater developer velocity and erase technical debt by converting infrastructure scripts from Python2 to Python3}
       % \item {Avoid regression of this conversion by writing custom lint rules for deprecated behavior using Pylint}
       \item {Created testing framework for Pylint lint rules to be run during the Bazel build process}
       % \item {Participated in team Planning Poker for costing the Python conversion project}
@@ -32,19 +47,19 @@
       \end{cvitems}
     }
 
-  \cventry
-  {Project Lead (DevOps)} % Job title
-    {Autolab} % Organization
-    {Pittsburgh, USA} % Location
-    {Nov. 2018 - Current} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Lead feature development and maintenance of open source project Autolab, a platform for auto-grading programming assignments used by ~5000 students in CMU and 20+ universities worldwide}
-        \item {Improved adoption by simplifying Autolab setup flow by using Docker Compose to automate provisioning and configuration of frontend and backend grading servers}
-        \item {Lead effort to keep project infrastructure up to date by upgrading Autolab to Rails 5 and Python 3}
-      % \item {Respond to technical issues faced by the community in setting up and configuring Autolab}
-      \end{cvitems}
-    }
+  % \cventry
+  % {Project Lead (DevOps)} % Job title
+  %   {Autolab} % Organization
+  %   {Pittsburgh, PA, USA} % Location
+  %   {Nov. 2018 - Current} % Date(s)
+  %   {
+  %     \begin{cvitems} % Description(s) of tasks/responsibilities
+  %       \item {Lead feature development and maintenance of open source project Autolab, a platform for auto-grading programming assignments used by ~5000 students in CMU and 20+ universities worldwide}
+  %       \item {Improved adoption by simplifying Autolab setup flow by using Docker Compose to automate provisioning and configuration of frontend and backend grading servers}
+  %       \item {Lead effort to keep project infrastructure up to date by upgrading Autolab to Rails 5 and Python 3}
+  %     % \item {Respond to technical issues faced by the community in setting up and configuring Autolab}
+  %     \end{cvitems}
+  %   }
 
 %---------------------------------------------------------
   \cventry
